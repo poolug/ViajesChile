@@ -1,12 +1,44 @@
+/*Fuente de todo el body*/
 body {
     font-family: 'Nunito', sans-serif;
 }
 
+/*Navbar Transparente*/
 .header .navbar {
     background-color: transparent !important;
 }
 
+/*logo en el navbar*/
 .navbar-brand img {
     width: 30px;
     margin-right: 0.5em;
+}
+
+/********** Sección Quienes somos **********/
+/*Color de la sección Quienes somos*/
+#quienes-somos {
+    background-color: black;
+    padding: 2em 3em 0 3em;
+}
+
+/*Espacio del h1 en la sección Quienes somos*/
+#quienes-somos h1 {
+    padding-bottom: 0.3em;
+}
+
+/*Estilo y posición de los hr*/
+hr {
+    margin: 0;
+    padding-bottom: 0.2em;
+    background-color: aqua;
+}
+
+/*Padding de la sección Quienes somos*/
+.info {
+    padding: 2em 1em 2em 1em;
+}
+
+/*Padding del párrafo en las card de Quienes somos*/
+.info1 p {
+    padding-top: 1em;
 }
