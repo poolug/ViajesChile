@@ -1,0 +1,12 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand img {
+    width: 30px;
+    margin-right: 0.5em;
+}
