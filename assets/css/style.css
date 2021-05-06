@@ -42,3 +42,24 @@ hr {
 .info1 p {
     padding-top: 1em;
 }
+
+/********** Sección Destacados **********/
+#destacados {
+    background-color: black;
+    padding: 7em 3em 0em 3em;
+}
+
+/*Espacio en el título de Destacados*/
+#destacados h1 {
+    padding-bottom: 0.3em;
+}
+
+/*Altura de imágenes en las card*/
+.card-img-top {
+    height: 186px;
+}
+
+/*Padding de la sección Destacados*/
+.info2 {
+    padding: 2em 2em 2em 2em;
+}
