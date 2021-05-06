@@ -3,9 +3,15 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-/*Navbar Transparente*/
+/*Navbar semi transparente, color de texto blanco */
 .header .navbar {
-    background-color: transparent !important;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: larger;
+}
+
+.bg-info {
+    transition: all 1s ease;
 }
 
 /*logo en el navbar*/
