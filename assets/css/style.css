@@ -10,6 +10,7 @@ body {
     font-size: larger;
 }
 
+/*Transición para cambiar de color el navbar*/
 .bg-info {
     transition: all 1s ease;
 }
@@ -97,3 +98,46 @@ hr {
     color: #ffffff;
     text-decoration: none;
 }
+
+/*Para resolucion > 320px*/
+@media (min-width: 320px) {
+    #destacados {
+        padding: 1em 1em;
+    }
+
+    .info2 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #quienes-somos {
+        display: none;
+    }
+
+    .card-img-top {
+        height: 100%;
+    }
+
+    #contacto {
+        padding: 1em 1em;
+        background-color: black;
+    }
+    
+    #contacto h1 {
+        padding-bottom: 0.3em;
+    }
+    
+    .typeform-widget {
+        padding: 2em 2em 3em 2em;
+    }
+
+    .footer-person h4 {
+        margin-top: 0.5em;
+    }
+
+}
+
+/*Para resolución > 768px*/
+
+/*Para resolución > 992px*/
+
