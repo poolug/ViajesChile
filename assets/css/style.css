@@ -110,7 +110,7 @@ hr {
         padding-right: 1em;
     }
 
-    #quienes-somos {
+    #quienes-somos, .qs-ocult {
         display: none;
     }
 
