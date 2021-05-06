@@ -63,3 +63,17 @@ hr {
 .info2 {
     padding: 2em 2em 2em 2em;
 }
+
+/********* Contacto *********/
+#contacto {
+    padding: 2em 3em 0 3em;
+    background-color: black;
+}
+
+#contacto h1 {
+    padding-bottom: 0.3em;
+}
+
+.typeform-widget {
+    padding: 2em 2em 3em 2em;
+}
