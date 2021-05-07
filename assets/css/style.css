@@ -21,123 +21,175 @@ body {
     margin-right: 0.5em;
 }
 
-/********** Sección Quienes somos **********/
-/*Color de la sección Quienes somos*/
-#quienes-somos {
-    background-color: black;
-    padding: 2em 3em 0 3em;
-}
-
-/*Espacio del h1 en la sección Quienes somos*/
-#quienes-somos h1 {
-    padding-bottom: 0.3em;
-}
-
-/*Estilo y posición de los hr*/
-hr {
-    margin: 0;
-    padding-bottom: 0.2em;
-    background-color: aqua;
-}
-
-/*Padding de la sección Quienes somos*/
-.info {
-    padding: 2em 1em 2em 1em;
-}
-
-/*Padding del párrafo en las card de Quienes somos*/
-.info1 p {
-    padding-top: 1em;
-}
-
-/********** Sección Destacados **********/
-#destacados {
-    background-color: black;
-    padding: 7em 3em 0em 3em;
-}
-
-/*Espacio en el título de Destacados*/
-#destacados h1 {
-    padding-bottom: 0.3em;
-}
-
-/*Altura de imágenes en las card*/
-.card-img-top {
-    height: 186px;
-}
-
-/*Padding de la sección Destacados*/
-.info2 {
-    padding: 2em 2em 2em 2em;
-}
-
-/********* Contacto *********/
-#contacto {
-    padding: 2em 3em 0 3em;
-    background-color: black;
-}
-
-#contacto h1 {
-    padding-bottom: 0.3em;
-}
-
-.typeform-widget {
-    padding: 2em 2em 3em 2em;
-}
-
-/********* Footer *********/
-.footer-person h4 {
-    margin: 0;
-}
-
-.icons-footer i {
-    padding: 0.2em;
-}
-
-.footer-person a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/*Para resolucion > 320px*/
+/*Para resoluciones > 320px*/
 @media (min-width: 320px) {
+    
+    /*Estilo y posición de los hr*/
+    hr {
+        margin: 0;
+        padding-bottom: 0.2em;
+        background-color: aqua;
+    }
+
+    /********** Sección Destacados **********/
+
+    /*Espacios y color de fondo*/
     #destacados {
+        background-color: black;
         padding: 1em 1em;
     }
 
-    .info2 {
-        padding-left: 1em;
-        padding-right: 1em;
+    /*Espacio en el título de Destacados*/
+    #destacados h1 {
+        padding-bottom: 0.3em;
     }
 
+    /*Padding de la sección Destacados*/
+    .info2 {
+        padding: 2em 1em 2em 1em;
+    }
+
+    /*Oculta sección quienes somos*/
     #quienes-somos, .qs-ocult {
         display: none;
     }
 
-    .card-img-top {
-        height: 100%;
-    }
-
+    /********* Sección de contacto *********/
+    /*Espacio y color de fondo*/
     #contacto {
         padding: 1em 1em;
         background-color: black;
     }
     
+    /*Espacio del h1*/
     #contacto h1 {
         padding-bottom: 0.3em;
     }
     
+    /*Espacios del typeform*/
     .typeform-widget {
         padding: 2em 2em 3em 2em;
     }
 
+    /********* Footer *********/
+    /*Margen del título footer*/
     .footer-person h4 {
         margin-top: 0.5em;
     }
 
+    /*Espacios entre los iconos*/
+    .icons-footer i {
+        padding: 0.2em;
+    }
+
+    /*Color de los íconos*/
+    .footer-person a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
 }
 
-/*Para resolución > 768px*/
+/*Para resoluciones > 320px*/
+@media (min-width: 768px) {
+    
+    /*Altura de imágenes en las card*/
+    .card-img-top {
+        height: 300px;
+    }
+}
 
-/*Para resolución > 992px*/
+/*Para resoluciones > 992px*/
+@media (min-width: 992px) {
+    /********** Sección Quienes somos **********/
 
+    /*Muestra la sección quienes somos*/
+    #quienes-somos, .qs-ocult {
+        display: block;
+    }
+
+    /*Color de la sección Quienes somos*/
+    #quienes-somos {
+        background-color: black;
+        padding: 2em 3em 0 3em;
+    }
+
+    /*Espacio del h1 en la sección Quienes somos*/
+    #quienes-somos h1 {
+        padding-bottom: 0.3em;
+    }
+
+    /*Estilo y posición de los hr*/
+    hr {
+        margin: 0;
+        padding-bottom: 0.2em;
+        background-color: aqua;
+    }
+
+    /*Padding de la sección Quienes somos*/
+    .info {
+        padding: 2em 1em 2em 1em;
+    }
+
+    /*Padding del párrafo en las card de Quienes somos*/
+    .info1 p {
+        padding-top: 1em;
+    }
+
+    /********** Sección Destacados **********/
+    /*Espacios y color de fondo*/
+    #destacados {
+        background-color: black;
+        padding: 7em 3em 0em 3em;
+    }
+
+    /*Espacio del título*/
+    #destacados h1 {
+        padding-bottom: 0.3em;
+    }
+
+    /*Altura de imágenes en las card*/
+    .card-img-top {
+        height: 200px;
+    }
+
+    /*Espacios del contenido*/
+    .info2 {
+        padding: 2em 2em 2em 2em;
+    }
+
+    /********* Contacto *********/
+    /*Espacios y color de fondo*/
+    #contacto {
+        padding: 2em 3em 0 3em;
+        background-color: black;
+    }
+
+    /*Espacio del título*/
+    #contacto h1 {
+        padding-bottom: 0.3em;
+    }
+
+    /*Espacios del typeform*/
+    .typeform-widget {
+        padding: 2em 2em 3em 2em;
+    }
+
+    /********* Footer *********/
+    /*Margen del título footer*/
+    .footer-person h4 {
+        margin: 0;
+    }
+
+    /*Espacios entre los iconos*/
+    .icons-footer i {
+        padding: 0.2em;
+    }
+
+    /*Color de los íconos*/
+    .footer-person a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+}
